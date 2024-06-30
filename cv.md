@@ -1,6 +1,6 @@
 ## Akylbek Maxutov
 
-* +7-702-239-76-83 | maxutov.akylbek@gmail.com | discord: akylbek.maxutov
++7-702-239-76-83 | maxutov.akylbek@gmail.com | discord: akylbek.maxutov
 
 ## Summary
 
@@ -9,9 +9,13 @@ A dynamic and innovative IT professional with experience spanning research in AI
 ## Skills
 
 **Languages:** Kazakh (Native), Russian (Native), English (level C1)
+
 **Soft skills:** Self-organization in Remote Work, Intern and Student Mentoring, Technical Writing in English
+
 **Programming Languages:** Python, SQL, JavaScript, TypeScript
+
 **Frameworks and Tools:** Streamlit, Data Science Toolkit (Numpy, Pandas, Scikit-learn) Flask, FastAPI
+
 **Developer Tools:** Git, GitHub, VS Code, Jupyter Notebook, ChatGPT, Jira, Confluence
 
 ## Experience
