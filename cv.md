@@ -45,3 +45,15 @@ Astana, Kazakhstan (Aug. 2018 - June 2022)
 Remote, Kazakhstan (Oct. 2022 - May 2023)
 * Expertly navigated the full spectrum of web development                                                              
 
+## Projects
+
+**CodeWars**
+Chain adding function (5 kyu)
+```javascript
+function add(n) {
+  // Let the currying begin!
+  const f = x => add(n + x);
+  f.valueOf = () => n;
+
+  return f;
+}
