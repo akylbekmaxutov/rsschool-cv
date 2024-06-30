@@ -20,16 +20,26 @@ A dynamic and innovative IT professional with experience spanning research in AI
 
 ## Experience
 
-**Data Science Research Scientist** 
-**Institute of Smart Systems and Artificial Intelligence** (Jan. 2024 - May 2024)                                                                                             Part-time Remote, Kazakhstan
+**Data Science Research Scientist**
+
+**Institute of Smart Systems and Artificial Intelligence** (Jan. 2024 - May 2024)
+
+Part-time Remote, Kazakhstan
 * Conducted a Research Study on topic of Large Language Models that includes Open AI API, YandexGPT API, Gemini API using Python
 
-**Data Analyst and AI specialist**                                                                                                                                            **Neuro.net & Voctiv.net** (June 2022-Dec. 2023)                                                                                                                              Full-time Remote, Kazakhstan
+**Data Analyst and AI specialist**                                                                                           
+
+**Neuro.net & Voctiv.net** (June 2022-Dec. 2023)                                                                             
+
+Full-time Remote, Kazakhstan
 * Suggested a way to improve Speech Recognition time by 2.2 seconds using regular expressions to meet client's business needs.
 * Led the data collection process to gather 40,000 samples using Python for the new internal project.
 * Collaborated effectively with cross-functional teams, including Project Management, Development, and Design; and mentored two interns
 
-**Data Science (Intern)**                                                                                                                                                     **Paid internship in AO 'KazPost' via the Digital Summer 2021' program** (May 2021 - Sept. 2021)
+**Data Science (Intern)**                                                                                                    
+
+**Paid internship in AO 'KazPost' via the Digital Summer 2021' program** (May 2021 - Sept. 2021)
+
 Full-time Remote, Astana
 * Earned a coveted internship spot, emerging as one of 50 selected from a pool of 6,000 applicants through a rigorous 4-round competition.
 * Attended 69 academic hours of IT lectures hosted by CU 'Samruk-Kazyna.
