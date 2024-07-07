@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code-examples">Code Examples</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+    <div class="resume">
+        <header>
+            <div class="header-content">
+                <div class="header-left">
+                    <h1>Akylbek Maxutov</h1>
+                    <ul>
+                        <li>maxutov.akylbek@gmail.com</li>
+                        <li>discord: akylbek.maxutov</li>
+                        <li>https://github.com/akylbekmaxutov</li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <img src="./assets/AIN_3264.jpg" alt="Personal Picture">
+                </div>
+            </div>
+        </header>
+        <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>A dynamic and innovative IT professional with experience spanning research in AI, information management, and software development. Proven track record in enhancing system efficiency, leading diverse teams, and excelling in competitive environments. Seeking to leverage expertise in Data Science to drive forward-thinking solutions.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Kazakh (Native), Russian (Native), English (level C1)</li>
+                <li><strong>Soft skills:</strong> Self-organization in Remote Work, Intern and Student Mentoring, Technical Writing in English</li>
+                <li><strong>Programming Languages:</strong> Python, SQL, JavaScript, TypeScript</li>
+                <li><strong>Frameworks and Tools:</strong> Streamlit, Data Science Toolkit (Numpy, Pandas, Scikit-learn) Flask, FastAPI</li>
+                <li><strong>Developer Tools:</strong> Git, GitHub, VS Code, Jupyter Notebook, ChatGPT, Jira, Confluence</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Data Science Research Scientist</h3>
+                <p>Institute of Smart Systems and Artificial Intelligence</p>
+                <p>Jan. 2024 – May 2024 | Part-time Remote, Kazakhstan</p>
+                <ul>
+                    <li>Conducted a Research Study on topic of Large Language Models that includes Open AI API, YandexGPT API, Gemini API using Python</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Data Analyst and AI specialist</h3>
+                <p>Neuro.net & Voctiv.net</p>
+                <p>June 2022 – Dec. 2023 | Full-time Remote, Kazakhstan</p>
+                <ul>
+                    <li>Suggested a way to improve Speech Recognition time by 2.2 seconds using regular expressions to meet client’s business needs.</li>
+                    <li>Led the data collection process to gather 40,000 samples using Python for the new internal project.</li>
+                    <li>Collaborated effectively with cross-functional teams, including Project Management, Development, and Design; and mentored two interns.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Data Science (Intern)</h3>
+                <p>Paid internship in AO ‘KazPost’ via the ‘Digital Summer 2021’ program</p>
+                <p>May 2021 – Sept. 2021 | Full-time Remote, Astana</p>
+                <ul>
+                    <li>Earned a coveted internship spot, emerging as one of 50 selected from a pool of 6,000 applicants through a rigorous 4-round competition.</li>
+                    <li>Attended 69 academic hours of IT lectures hosted by CU 'Samruk-Kazyna'.</li>
+                    <li>Achieved recognition as one of 8 MVPs in the 'Summer Hack 2021' hackathon organized by 'Samruk-Kazyna' with 50 participants.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Nazarbayev University</h3>
+                <p>Masters of Data Science</p>
+            </div>
+            <div class="education">
+                <h3>Nazarbayev University</h3>
+                <p>Bachelor of Engineering in Electrical and Computer Engineering</p>
+            </div>
+            <div class="education">
+                <h3>nFactorial School. TechOrda grant holder</h3>
+                <p>Expertly navigated the full spectrum of web development</p>
+            </div>
+        </section>
+
+        <section id="code-examples">
+            <h2>Code Examples</h2>
+            <div class="code-examples">
+                <div class="code-example">
+                    <h3>A Chain adding function (5 kyu)</h3>
+                    <pre><code class="language-javascript">
+    function add(n){
+    // Let the currying begin!
+    const f = x => add(n + x)
+    f.valueOf = () => n
+
+    return f
+    }
+                    </code></pre>
+                </div>
+                <div class="code-example">
+                    <h3>Singleton Pattern (7 kyu)</h3>
+                    <pre><code class="language-javascript">
+    var Singleton = function(){
+    if(Singleton.__instance) {
+        return Singleton.__instance;
+    }
+    
+    Singleton.__instance = this;
+    };
+                    </code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Scientific Computing Project</h3>
+                <a href="https://github.com/akylbekmaxutov/scientific-computing-project">GitHub Repository</a>
+                <p>This project, developed for the Scientific Computing course, involves analytical visualization of the correlation between exam scores and a variety of non-obvious factors. It showcases advanced data analysis and visualization techniques to derive meaningful insights from complex datasets.</p>
+            </div>
+            <div class="project">
+                <h3>Qara Soz Project</h3>
+                <a href="https://github.com/akylbekmaxutov/nfactorial/tree/main/web-advanced/nfactorial-web-advanced_final-project-main/nfactorial-web-advanced_final-project-main">GitHub Repository</a>
+                <p>The final project for the nFactorial course, this audio player component features the wise words of Abay. The project highlights my skills in web development, focusing on creating interactive and user-friendly interfaces for an enhanced audio experience.</p>
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <div class="left">
+            <img src="./assets/logo-rs.png" alt="RSschool logo">
+            <a href="https://rs.school/courses/javascript-preschool-ru">RS School Course</a>
+        </div>
+        <div class="center">
+            <p>July 2024</p>
+        </div>
+        <div class="right">
+            <a href="https://github.com/akylbekmaxutov">GitHub profile</a>
+            <img src="./assets/logo-github.png" alt="GitHub logo">
+        </div>
+    </footer>
+</body>
+</html>
